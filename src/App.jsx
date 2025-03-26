@@ -23,20 +23,20 @@ function App() {
     <>
       <div className='px-[111px] flex items-center justify-between py-[26px] bg-[#283036]'>
         <a href="/">
-          <img src={Logo} alt="logo" width={140} height={38}/>
+          <img className='hover:scale-[1.1] duration-300' src={Logo} alt="logo" width={140} height={38}/>
         </a>
         <ul className='flex items-center justify-center gap-[35px]'>
           <li>
-            <a className='text-[16px] font-medium text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">Home</a>
+            <a className='text-[16px] font-medium active:scale-[1.1] text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">Home</a>
           </li>
           <li>
-            <a className='text-[16px] font-medium text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">Categories</a>
+            <a className='text-[16px] font-medium active:scale-[1.1] text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">Categories</a>
           </li>
           <li>
-            <a className='text-[16px] font-medium text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">My Collections</a>
+            <a className='text-[16px] font-medium active:scale-[1.1] text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">My Collections</a>
           </li>
           <li>
-            <a className='text-[16px] font-medium text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">Blog</a>
+            <a className='text-[16px] font-medium active:scale-[1.1] text-[#FFFFFF8C] hover:text-green-500 duration-300' href="#">Blog</a>
           </li>
         </ul>
         <div className='flex items-center gap-[41px]'>
@@ -54,14 +54,14 @@ function App() {
             <input className='bg-[#FFFFFF00] outline-none text-[14px] font-medium text-white' type="text" placeholder='find more than 430+ tools...' />
             <button className='w-[130px] py-[12px] ml-[111px] bg-[#FF6E30] rounded-md border-[2px] border-[#FF6E30] text-white text-[14px] font-bold duration-300 hover:bg-transparent hover:text-[#FF6E30]'>Search</button>
           </div>
-          <div className='flex items-center gap-[40px]'>
-            <a className='hover:scale-[0.9] duration-300' href="#">
+          <div className='flex gap-[40px]'>
+            <a className='hover:scale-[0.9] rounded-md text-white hover:text-blue-500 w-[58px] h-[58px] bg-transparent hover:bg-[#12121226] flex items-center justify-center duration-300' href="#">
             <Facebook/>
             </a>
-            <a className='hover:scale-[0.9] duration-300' href="#">
+            <a className='hover:scale-[0.9] hover:w-[58px] hover:h-[58px] rounded-md text-white hover:text-[#C13584] w-[58px] h-[58px] bg-transparent hover:bg-[#12121226] flex items-center justify-center duration-300' href="#">
             <Instagram/>
             </a>
-            <a className='hover:scale-[0.9] duration-300' href="#">
+            <a className='hover:scale-[0.9] rounded-md text-white hover:text-blue-500 w-[58px] h-[58px] bg-transparent hover:bg-[#12121226] flex items-center justify-center duration-300' href="#">
             <Twiteer/>
             </a>
           </div>
@@ -330,9 +330,9 @@ function App() {
         <div>
           <a href="/">
             <img className='hover:scale-[1.1] duration-300' src={Logo} alt="logo" width={140} height={38}/>
+          </a>
             <span className='text-[16px] font-bold mt-[25px] block text-[#FFFFFFE5] mb-[21px]'>Copyright 2021. Antools</span>
             <p className='w-[260px] text-[#FFFFFF8C] text-[14px]'>Antool is a web collection of information on paid or free Design and Development tools</p>
-          </a>
         </div>
         <ul>
           <strong className='text-[#FFFFFFE5] block text-[20px] font-bold mb-[20px]'>Contact Us</strong>
